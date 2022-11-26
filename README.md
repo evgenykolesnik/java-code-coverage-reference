@@ -23,7 +23,7 @@ mvn spring-boot:run -Pit-coverage
 ```
 
 It is necessary to stop the application once the integration testing is done.
-It produce the coverage repord `target/jacoco-it.exec`.
+It produces the coverage report `target/jacoco-it.exec`.
 
 ## Sonar
 

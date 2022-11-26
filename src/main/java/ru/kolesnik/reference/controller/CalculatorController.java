@@ -9,8 +9,12 @@ import ru.kolesnik.reference.service.CalculatorService;
 @RestController
 public class CalculatorController {
 
+  private final CalculatorService calculatorService;
+
   @Autowired
-  private CalculatorService calculatorService;
+  public CalculatorController(CalculatorService calculatorService) {
+    this.calculatorService = calculatorService;
+  }
 
   @RequestMapping("/sum")
   public Long sum(@RequestParam Long a, @RequestParam Long b) {

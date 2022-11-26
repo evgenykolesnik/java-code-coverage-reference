@@ -13,8 +13,8 @@
     <maven.compiler.target>1.8</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
-    <spring.boot.version>2.5.12</spring.boot.version>
-    <jacoco.version>0.7.9</jacoco.version>
+    <spring.boot.version>2.7.6</spring.boot.version>
+    <jacoco.version>0.8.8</jacoco.version>
   </properties>
 
   <dependencies>
